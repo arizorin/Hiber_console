@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="ru.techcenter.rolfcenter.Autos" table="Autos">
+        <id name="CLIENT_ID" type="int" column="CLIENT_ID">
+        </id>
+        <property name="MODEL">
+            <column name="MODEL" />
+        </property>
+        <property name="SERIES">
+            <column name="SERIES" />
+        </property>
+         </class>
+</hibernate-mapping>
